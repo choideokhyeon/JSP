@@ -1,0 +1,32 @@
+01 Basic
+선언문 : <%! %>
+스크립틀릿 : <% %>
+표현식 : <%= %>
+
+
+
+02
+request.getParameter("변수명");
+request.getParamValues("변수명");
+...
+
+
+
+03 지시자
+- @page
+  - error
+  - import
+- @include
+- @tablib(아직안함)
+
+
+
+04 Forward vs Redirect
+- Forward : request유지 O , 처음 요청한 URL 유지 / WEB-INFO 경로 내의 위치로 전달
+- Redirect : request유지 X ,  마지막 요청 URL
+
+
+05 액션태그
+- forward 액션 태그
+- include 액션 태그
+- useBean 액션 태그
